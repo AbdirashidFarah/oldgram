@@ -1,0 +1,103 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background-color: #c6c6c6;
+   
+    
+}
+
+header{
+    width: 345px;
+    height: 67px;
+    margin: 20px auto 0px auto;
+    border-bottom: 1px solid #c6c6c6;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 0px 15px;
+    
+}
+
+section{
+    width: 375px;
+    height: fit-content;
+    background-color: #ffffff;
+    margin: 0px auto;
+    padding-bottom: 10px;
+}
+
+.logo{
+    width: 127px;
+    height: 40px;
+}
+.use-logo{
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+}
+
+.top{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    margin: auto 10px;
+}
+
+.name-location{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding-top: 10px;
+}
+
+h2{
+    font-size: 13px;
+    font-weight: bold;
+}
+p{
+    font-size: 13px;
+    margin-top: 0;
+}
+
+.post{
+    width: 375px;
+    height: 375px;
+}
+
+.icon-container {
+    gap: 10px;
+    margin: 20px 10px 10px;
+}
+
+.icon{
+    width: 23px;
+    height: 23px;
+    opacity:
+} 
+
+.icon:hover {
+    width: 26px;
+    height: 26px;
+}
+
+
+  
+
+    
+
+.love.active {
+    fill: red;
+    stroke: red;
+}
+
+.likecomment{
+    margin: auto;
+    
+}
+.username{
+    font-weight: bold;
+    margin-right: 3px;
+}
